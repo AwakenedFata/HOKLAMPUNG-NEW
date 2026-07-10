@@ -2,7 +2,7 @@ import { env } from '$env/dynamic/private';
 import { env as publicEnv } from '$env/dynamic/public';
 
 export const config = {
-  runtime: 'nodejs'
+  runtime: 'nodejs24.x'
 };
 
 let _browser = null;
